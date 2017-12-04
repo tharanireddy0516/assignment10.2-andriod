@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!-- xml stands for extensible markup language
+    it is a background code of layouts,widges etc-->
+<!--Linear layout is one of the types of layout
+It aligns views one by one that is by vertically/horizontally
+layout_width indicates the width of the Linear layout
+layout_Height indicates the height of the Linear layout
+context indicates the package name of the respective java class
+match parent will take complete height or width of text-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="1">
+    <!--TextView is one of component of palette to display anything on layout
+       width indicates the width of the TextView
+      Height indicates the height of the TextView
+      wraps content wraps the enter content
+      what ever we write in text it displays in output
+      TextSize indicates the size of the text in sp units
+      TextColor indicates the color of text
+     extracted string resource name and value in string.xml file-->
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="170dp"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/news_papers"
+        android:textAlignment="center"
+        android:textColor="#C51162"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_weight="0.10" />
+    <!--Button is a widget or view
+    width indicates the width of the TextView
+     Height indicates the height of the TextView
+     wraps content wraps the enter content
+     what ever we write in text button it displays in output
+     TextStyle indicates the size of the text in button
+     TextColor indicates the color of button-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="@string/the_times"
+        android:textColor="#E32636"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+    <!--Taking button for The Hindu-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="@string/the_hindu"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+    <!--Taking button for The Indian Express-->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="@string/the_indian_express"
+        android:textColor="#FF007F"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+     <!--Taking button for The Daily Express-->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:text="@string/daily_express"
+        android:textColor="#3E2723"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout><!--linear layout ends here-->

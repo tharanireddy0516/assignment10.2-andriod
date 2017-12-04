@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- xml stands for extensible markup language
+    it is a background code of layouts,widges etc-->
+<!--Linear layout is one of the types of layout
+It aligns views one by one that is by vertically/horizontally
+layout_width indicates the width of the Linear layout
+layout_Height indicates the height of the Linear layout
+context indicates the package name of the respective java class
+match parent will take complete height or width of text-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFAB91">
+    <!--TextView is one of component of palette to display anything on layout
+       width indicates the width of the TextView
+      Height indicates the height of the TextView
+      wraps content wraps the enter content
+      what ever we write in text it displays in output
+      TextSize indicates the size of the text in sp units
+      TextColor indicates the color of text
+     extracted string resource name and value in string.xml file-->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/express"
+        android:textColor="#BF360C"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+       <!--here taking another textview-->
+    <TextView
+        android:id="@+id/lay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#607D8B"/>
+
+</LinearLayout><!--linear layout ends here-->

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListFragment</string>
+    <string name="daily_express">Daily Express</string>
+    <string name="the_hindu">The Hindu</string>
+    <string name="the_times">The Times</string>
+    <string name="news_papers">News papers</string>
+    <string name="the_indian_express">The Indian Express</string>
+    <string name="times">The Times</string>
+    <string name="hindu">The Hindu</string>
+    <string name="indian_express">The Indian Express</string>
+    <string name="express">Daily Express</string>
+</resources>
